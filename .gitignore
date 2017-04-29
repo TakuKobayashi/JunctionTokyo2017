@@ -36,7 +36,7 @@ unity/build/*
 bin/*
 gen/*
 libs/*
-obj/*
+obj/
 
 # etc
 tags
