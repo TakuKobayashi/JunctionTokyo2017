@@ -105,41 +105,42 @@
         <File name="status_codes" src="lib/requests/status_codes.py" />
         <File name="structures" src="lib/requests/structures.py" />
         <File name="utils" src="lib/requests/utils.py" />
-        <File name="DESCRIPTION" src="nodered_samples/05websocket/lib/six-1.10.0.dist-info/DESCRIPTION.rst" />
-        <File name="INSTALLER" src="nodered_samples/05websocket/lib/six-1.10.0.dist-info/INSTALLER" />
-        <File name="RECORD" src="nodered_samples/05websocket/lib/six-1.10.0.dist-info/RECORD" />
-        <File name="WHEEL" src="nodered_samples/05websocket/lib/six-1.10.0.dist-info/WHEEL" />
-        <File name="top_level" src="nodered_samples/05websocket/lib/six-1.10.0.dist-info/top_level.txt" />
-        <File name="six" src="nodered_samples/05websocket/lib/six.py" />
-        <File name="__init__" src="nodered_samples/05websocket/lib/websocket/__init__.py" />
-        <File name="_abnf" src="nodered_samples/05websocket/lib/websocket/_abnf.py" />
-        <File name="_app" src="nodered_samples/05websocket/lib/websocket/_app.py" />
-        <File name="_core" src="nodered_samples/05websocket/lib/websocket/_core.py" />
-        <File name="_exceptions" src="nodered_samples/05websocket/lib/websocket/_exceptions.py" />
-        <File name="_handshake" src="nodered_samples/05websocket/lib/websocket/_handshake.py" />
-        <File name="_http" src="nodered_samples/05websocket/lib/websocket/_http.py" />
-        <File name="_logging" src="nodered_samples/05websocket/lib/websocket/_logging.py" />
-        <File name="_socket" src="nodered_samples/05websocket/lib/websocket/_socket.py" />
-        <File name="_ssl_compat" src="nodered_samples/05websocket/lib/websocket/_ssl_compat.py" />
-        <File name="_url" src="nodered_samples/05websocket/lib/websocket/_url.py" />
-        <File name="_utils" src="nodered_samples/05websocket/lib/websocket/_utils.py" />
-        <File name="cacert" src="nodered_samples/05websocket/lib/websocket/cacert.pem" />
-        <File name="__init__" src="nodered_samples/05websocket/lib/websocket/tests/__init__.py" />
-        <File name="header01" src="nodered_samples/05websocket/lib/websocket/tests/data/header01.txt" />
-        <File name="header02" src="nodered_samples/05websocket/lib/websocket/tests/data/header02.txt" />
-        <File name="test_websocket" src="nodered_samples/05websocket/lib/websocket/tests/test_websocket.py" />
-        <File name="DESCRIPTION" src="nodered_samples/05websocket/lib/websocket_client-0.40.0.dist-info/DESCRIPTION.rst" />
-        <File name="INSTALLER" src="nodered_samples/05websocket/lib/websocket_client-0.40.0.dist-info/INSTALLER" />
-        <File name="RECORD" src="nodered_samples/05websocket/lib/websocket_client-0.40.0.dist-info/RECORD" />
-        <File name="WHEEL" src="nodered_samples/05websocket/lib/websocket_client-0.40.0.dist-info/WHEEL" />
-        <File name="top_level" src="nodered_samples/05websocket/lib/websocket_client-0.40.0.dist-info/top_level.txt" />
+        <File name="DESCRIPTION" src="lib/six-1.10.0.dist-info/DESCRIPTION.rst" />
+        <File name="INSTALLER" src="lib/six-1.10.0.dist-info/INSTALLER" />
+        <File name="RECORD" src="lib/six-1.10.0.dist-info/RECORD" />
+        <File name="WHEEL" src="lib/six-1.10.0.dist-info/WHEEL" />
+        <File name="top_level" src="lib/six-1.10.0.dist-info/top_level.txt" />
+        <File name="six" src="lib/six.py" />
+        <File name="__init__" src="lib/websocket/__init__.py" />
+        <File name="_abnf" src="lib/websocket/_abnf.py" />
+        <File name="_app" src="lib/websocket/_app.py" />
+        <File name="_core" src="lib/websocket/_core.py" />
+        <File name="_exceptions" src="lib/websocket/_exceptions.py" />
+        <File name="_handshake" src="lib/websocket/_handshake.py" />
+        <File name="_http" src="lib/websocket/_http.py" />
+        <File name="_logging" src="lib/websocket/_logging.py" />
+        <File name="_socket" src="lib/websocket/_socket.py" />
+        <File name="_ssl_compat" src="lib/websocket/_ssl_compat.py" />
+        <File name="_url" src="lib/websocket/_url.py" />
+        <File name="_utils" src="lib/websocket/_utils.py" />
+        <File name="cacert" src="lib/websocket/cacert.pem" />
+        <File name="__init__" src="lib/websocket/tests/__init__.py" />
+        <File name="header01" src="lib/websocket/tests/data/header01.txt" />
+        <File name="header02" src="lib/websocket/tests/data/header02.txt" />
+        <File name="test_websocket" src="lib/websocket/tests/test_websocket.py" />
+        <File name="__init__" src="lib/backports/__init__.py" />
+        <File name="__init__" src="lib/backports/ssl_match_hostname/__init__.py" />
+        <File name="__init__" src="lib/websocket/tests/__init__.pyc" />
+        <File name="test_websocket" src="lib/websocket/tests/test_websocket.pyc" />
+        <File name="index" src="html/index.html" />
     </Resources>
     <Topics />
     <IgnoredPaths>
-        <Path src="nodered_samples/05websocket/lib/six-1.10.0.dist-info/metadata.json" />
-        <Path src="nodered_samples/05websocket/lib/websocket_client-0.40.0.dist-info/METADATA" />
-        <Path src="nodered_samples/05websocket/lib/websocket_client-0.40.0.dist-info/metadata.json" />
-        <Path src="nodered_samples/05websocket/lib/six-1.10.0.dist-info/METADATA" />
+        <Path src="lib/six-1.10.0.dist-info/METADATA" />
+        <Path src="lib/six-1.10.0.dist-info/metadata.json" />
         <Path src=".metadata" />
     </IgnoredPaths>
+    <Translations auto-fill="en_US">
+        <Translation name="translation_en_US" src="translations/translation_en_US.ts" language="en_US" />
+    </Translations>
 </Package>
