@@ -123,3 +123,5 @@ nbproject
 pyvenv.cfg
 .venv
 pip-selfcheck.json
+
+!pepper/junction2017/lib/
