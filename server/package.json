@@ -15,7 +15,8 @@
     "ws": "*",
     "ejs": "*",
     "jquery":"*",
-    "nodemon":"*"
+    "nodemon":"*",
+    "cfenv": "*"
   },
   "repository": {
     "type": "git",
