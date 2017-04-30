@@ -3,6 +3,7 @@
     <Manifest src="manifest.xml" />
     <BehaviorDescriptions>
         <BehaviorDescription name="behavior" src="behavior_1" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="." xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
     <Resources>
@@ -116,12 +117,6 @@
         <File name="_app" src="lib/websocket/_app.py" />
         <File name="_core" src="lib/websocket/_core.py" />
         <File name="_exceptions" src="lib/websocket/_exceptions.py" />
-        <File name="_handshake" src="lib/websocket/_handshake.py" />
-        <File name="_http" src="lib/websocket/_http.py" />
-        <File name="_logging" src="lib/websocket/_logging.py" />
-        <File name="_socket" src="lib/websocket/_socket.py" />
-        <File name="_ssl_compat" src="lib/websocket/_ssl_compat.py" />
-        <File name="_url" src="lib/websocket/_url.py" />
         <File name="_utils" src="lib/websocket/_utils.py" />
         <File name="cacert" src="lib/websocket/cacert.pem" />
         <File name="__init__" src="lib/websocket/tests/__init__.py" />
@@ -130,14 +125,28 @@
         <File name="test_websocket" src="lib/websocket/tests/test_websocket.py" />
         <File name="__init__" src="lib/backports/__init__.py" />
         <File name="__init__" src="lib/backports/ssl_match_hostname/__init__.py" />
+        <File name="index" src="html/index.html" />
+        <File name="jquery.min" src="html/js/jquery.min.js" />
+        <File name="qi" src="html/js/qi.js" />
+        <File name="oyoyo_ws_picture2" src="lib/oyoyo_ws_picture2.py" />
+        <File name="qi" src="html/libs/qi/2/qi.js" />
+        <File name="jquery.min" src="html/libs/qimessaging/1.0/jquery.min.js" />
+        <File name="qimessaging" src="html/libs/qimessaging/1.0/qimessaging.js" />
+        <File name="socket.io.min" src="html/libs/qimessaging/1.0/socket.io.min.js" />
+        <File name="qimessaging" src="html/libs/qimessaging/2/qimessaging.js" />
+        <File name="_handshake" src="lib/websocket/_handshake.py" />
+        <File name="_http" src="lib/websocket/_http.py" />
+        <File name="_logging" src="lib/websocket/_logging.py" />
+        <File name="_socket" src="lib/websocket/_socket.py" />
+        <File name="_ssl_compat" src="lib/websocket/_ssl_compat.py" />
+        <File name="_url" src="lib/websocket/_url.py" />
         <File name="__init__" src="lib/websocket/tests/__init__.pyc" />
         <File name="test_websocket" src="lib/websocket/tests/test_websocket.pyc" />
-        <File name="index" src="html/index.html" />
     </Resources>
     <Topics />
     <IgnoredPaths>
-        <Path src="lib/six-1.10.0.dist-info/METADATA" />
         <Path src="lib/six-1.10.0.dist-info/metadata.json" />
+        <Path src="lib/six-1.10.0.dist-info/METADATA" />
         <Path src=".metadata" />
     </IgnoredPaths>
     <Translations auto-fill="en_US">
